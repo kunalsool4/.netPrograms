@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //int kunal = 22;
+            //Console.WriteLine("My age is " + kunal);
+            //string str = Console.ReadLine();
+            //Console.WriteLine(str);
+            //int x = (int) 3.5;
+            //char x = (char) 13.5;
+            //int y = 5;
+            //Console.WriteLine(y);
+            //Console.WriteLine(x);
+            //Console.WriteLine("Enter you name");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("hello " + name + " how are you");
+
+            //Console.WriteLine("how many candies do you want ? ");
+            //string candies = Console.ReadLine();
+            ////int num = Convert.ToInt32(candies) + 5;
+
+            //Console.WriteLine( "hii kunal"+ (Convert.ToInt32(candies) + 5));
+            //int a = 4;
+            //int b = 4;
+            //Console.WriteLine(a + b);
+            //Console.WriteLine(a - b);
+            //Console.WriteLine(a * b);
+            //Console.WriteLine(a / b);
+
+            //Console.WriteLine(true && false);
+            //int a = Math.Max(355, 25);
+            //Console.WriteLine(a);
+
+            // fabinacci series
+            //int n1 = 0, n2 = 1, n3, i, number;
+            //Console.Write("Enter the number of elements: ");
+            //number = int.Parse(Console.ReadLine());
+            //Console.Write(n1 + " " + n2 + " ");
+            //for (i = 2; i < number; ++i)    
+            //{
+            //    n3 = n1 + n2;
+            //    Console.Write(n3 + " ");
+            //    n1 = n2;
+            //    n2 = n3;
+            //}
+
+            // pattern printing
+            for (int i = 1; i <= 5; ++i)
+            {
+                for (int j = 1; j <= i; ++j)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+
+
+
+        }
+    }
+}
